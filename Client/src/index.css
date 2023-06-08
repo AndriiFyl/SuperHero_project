@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mainContainer {
+    padding: 30px 0;
+}
+
+.pageTitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ccc;
+}
+
+.greenButton {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.greenButton:hover {
+    background-color: #3e8e41;
+}
+
+.redButton {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.redButton:hover {
+    background-color: #da190b;
+}

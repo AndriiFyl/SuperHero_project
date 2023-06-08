@@ -1,0 +1,22 @@
+.imageBlock {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.imageBlock img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.deleteImageText {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}

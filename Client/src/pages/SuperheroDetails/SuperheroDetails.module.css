@@ -1,0 +1,13 @@
+.image {
+    max-width: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+.imagesBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}

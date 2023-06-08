@@ -1,0 +1,28 @@
+.headerContainerOuter {
+
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.headerContainerInner {
+    padding: 35px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.headerLink {
+    text-decoration: none;
+    color: #838383;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.headerLink:hover {
+    color: #2c2c2c;
+}
+
+.headerLinkActive {
+    color: #101010;
+    text-decoration: underline;
+}
