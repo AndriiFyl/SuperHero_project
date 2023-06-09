@@ -23,8 +23,6 @@ const Home = () => {
 
   return (
     <div>
-      <h3 className="pageTitle">Home Page</h3>
-
       {isLoading ? (
         <div>Loading...</div>
       ) : (
@@ -33,6 +31,7 @@ const Home = () => {
             {heroes.map((hero) => (
               <div key={hero._id} className={styles.heroBlock}>
                 <img
+                  className={styles.img_hero}
                   src={`http://localhost:5000/public/images/${hero.images[0]}`}
                   alt={hero.nickname}
                 />
